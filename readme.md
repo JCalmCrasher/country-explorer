@@ -141,7 +141,7 @@ Submit:
 
 ## Live Review
 
-Be prepared to explain:
+Be prepared to explain:rest
 
 - How `fetch()` works
 - Why you used `async/await`
@@ -167,3 +167,41 @@ The final design does not need to match these exactly, but it should follow a si
 
 ## Future Improvements
 
+
+## Debugging mindset
+
+If something is not showing:
+
+Ask yourself:
+
+1. Did the API return data?
+2. Is my selector correct?
+3. Did I actually render the result to the DOM?
+4. Is the function even being called?
+
+Use something like:
+
+`console.log("step reached")`
+
+---
+
+## Fetch flow reminder
+
+Typical flow should look like:
+
+* get input value
+* call API
+* wait for response
+* extract data
+* update UI
+
+
+## Important mindset
+
+Don’t try to “write perfect code first”.
+
+Instead:
+
+* make it work first
+* then improve structure
+* then handle edge cases
