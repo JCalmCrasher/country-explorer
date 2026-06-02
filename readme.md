@@ -136,6 +136,7 @@ Submit:
   - How to run the project
   - [Challenges faced](#challenges-faced)
   - [Improvements you'd make with more time](#future-improvements)
+3. *if you must use ai, don't over rely ai on it, use it to debug, understand and/or explain concepts you're not familiar with.*
 
 ---
 
