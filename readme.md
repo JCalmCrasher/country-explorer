@@ -39,7 +39,7 @@ Your UI should feel like a simple modern web app. Focus on clarity and usability
 Use the REST Countries API:
 
 ```text
-https://restcountries.com/v3.1/name/{country}j
+https://restcountries.com/v3.1/name/{country}
 ```
 
 Example:
