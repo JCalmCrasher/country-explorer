@@ -92,7 +92,6 @@ Handle:
 | Region: Africa                                |
 | Currency: Nigerian Naira                      |
 +----------------------------------------------+
-```
 
 For a more visual design please [see](./ui.png)
 
