@@ -4,8 +4,6 @@
 
 Build a web application that allows users to search for countries and view information about them using a public API.
 
----
-
 ## Tech Stack
 
 - HTML
