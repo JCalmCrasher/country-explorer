@@ -73,7 +73,6 @@ Handle:
 
 ### Layout
 
-```
 +--------------------------------------------------+
 |                 Country Explorer                 |
 +--------------------------------------------------+
@@ -105,8 +104,6 @@ For a more visual design please [see](./ui.png)
 - Card-based layout
 - Hover effect on button
 - Loading and error messages clearly visible
-
----
 
 ## Bonus (Optional)
 
@@ -167,8 +164,6 @@ Ask yourself:
 Use something like:
 
 `console.log("step reached")`
-
----
 
 ## Fetch flow reminder
 
