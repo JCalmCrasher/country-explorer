@@ -11,8 +11,6 @@ Build a web application that allows users to search for countries and view infor
 - Vanilla JavaScript
 - No frameworks or libraries
 
----
-
 ## Styling Description
 
 Your UI should feel like a simple modern web app. Focus on clarity and usability rather than decoration.
@@ -30,8 +28,6 @@ Your UI should feel like a simple modern web app. Focus on clarity and usability
 - Error state: clear message in a noticeable but not harsh style (e.g. light red or warning tone)
 - Empty state: neutral prompt like “Search for a country to begin”
 
----
-
 ## API
 
 Use the REST Countries API:
@@ -45,8 +41,6 @@ Example:
 ```text
 https://restcountries.com/v3.1/name/nigeria
 ```
-
----
 
 ## Features
 
@@ -74,8 +68,6 @@ Handle:
 - Empty State
 - Loading State
 - Error State
-
----
 
 ## UI Requirements
 
@@ -123,8 +115,6 @@ For a more visual design please [see](./ui.png)
 - Display neighboring countries
 - Click neighboring country to view details
 
----
-
 ## Submission
 
 Submit:
@@ -136,8 +126,6 @@ Submit:
   - [Improvements you'd make with more time](#future-improvements)
 3. *if you must use ai, don't over rely ai on it, use it to debug, understand and/or explain concepts you're not familiar with.*
 
----
-
 ## Live Review
 
 Be prepared to explain:rest
@@ -147,8 +135,6 @@ Be prepared to explain:rest
 - How errors are handled
 - How API data is rendered
 - Any assumptions you made
-
----
 
 ## Time Limit
 
