@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@10.2.0/public/assets/styles/choices.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h1>Country Manager</h1>
+            <div class="mode-tabs">
+                <button id="tab-explore" class="tab-btn active">Explore</button>
+                <button id="tab-compare" class="tab-btn">Compare</button>
+            </div>
+        </header>
+
+        <main>
+            <form id="search-form" class="search-box">
+                <select id="country-select" aria-label="Select a country from the list">
+                    <option value="" disabled selected>Loading countries...</option>
+                </select>
+                <button type="submit" id="search-button">Search</button>
+            </form>
+
+            <form id="compare-form" class="search-box hidden">
+                <div class="compare-inputs">
+                    <select id="compare-select-1" aria-label="Select first country">
+                        <option value="" disabled selected>Loading countries...</option>
+                    </select>
+                    <span class="vs-divider">VS</span>
+                    <select id="compare-select-2" aria-label="Select second country">
+                        <option value="" disabled selected>Loading countries...</option>
+                    </select>
+                </div>
+                <button type="submit" id="compare-button">Compare</button>
+            </form>
+
+            <div id="content-display">
+                <div class="state-message empty-state">
+                    <p>Search for a country to begin.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/choices.js@10.2.0/public/assets/scripts/choices.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
